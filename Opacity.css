@@ -8,7 +8,7 @@ section {
 #rgba {
     width: 50%;
     height: 50%;
-    background-color:rgb(34, 131, 216)
+    background-color:rgba(34, 131, 216)
 }
 #opacity {
     width: 50%;
