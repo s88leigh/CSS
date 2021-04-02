@@ -1,11 +1,18 @@
 section {
-    width: 600px;
+    width: 800px;
     height: 400px;
     background-color:blueviolet;
+    margin-bottom: 20px;
 }
 
 #rgba {
     width: 50%;
     height: 50%;
-    background-color:aliceblue
+    background-color:rgb(34, 131, 216)
+}
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color:rgb(34, 131, 216);
+    opacity: 0.5;
 }
