@@ -1,32 +1,57 @@
 .circle {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 20px;
     background-color: aqua;
     transition: 3s; 
     /*set color 3 secs to transition */
     /*Propery Name | Duration | Timing Function | Delay */
-
 }
-#circle2 { 
-    width: 300px;
-    height: 300px;
-    margin-bottom: 20px;
-    background-color: aqua;
-    transition: background-color 4s;
-}
-
 .circle:hover {
     background-color: blueviolet;
-    width: 300px;
-    height: 300px; 
+    width: 150px;
+    height: 150px; 
     border-radius: 50%;
-
 }
+#circle2 { 
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    transition: background-color 3s;
+}
+
 #circle2:hover {
     background-color: blueviolet;
-    width: 300px;
-    height: 300px; 
+    width: 150px;
+    height: 150px; 
     border-radius: 50%;
-
 }
+#circle3 { 
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    transition: background-color 3s; border-radius: 3s;
+}
+#circle3:hover {
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+}
+#circle4 { 
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    transition: all 3s;
+}
+#circle4:hover {
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+}
+
+
