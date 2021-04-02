@@ -1,8 +1,19 @@
 .circle {
     width: 300px;
     height: 300px;
+    margin-bottom: 20px;
     background-color: aqua;
-   
+    transition: 3s; 
+    /*set color 3 secs to transition */
+    /*Propery Name | Duration | Timing Function | Delay */
+
+}
+#circle2 { 
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    transition: background-color 4s;
 }
 
 .circle:hover {
@@ -10,5 +21,12 @@
     width: 300px;
     height: 300px; 
     border-radius: 50%;
-    
+
+}
+#circle2:hover {
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px; 
+    border-radius: 50%;
+
 }
