@@ -1,0 +1,11 @@
+section {
+    width: 600px;
+    height: 400px;
+    background-color:blueviolet;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color:aliceblue
+}
